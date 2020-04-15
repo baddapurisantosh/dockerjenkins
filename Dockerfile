@@ -1,1 +1,3 @@
-From maven:3.6.3-jdk-8
+From tomcat:8-jre8 
+
+COPY /var/lib/jenkins/workspace/dock2/webapp/target/webapp.war /usr/local/tomcat/webapps
